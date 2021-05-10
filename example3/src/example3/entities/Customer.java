@@ -1,9 +1,9 @@
 package example3.entities;
 
-
+import example3.abstracts.Entity;
 import java.util.Date;
 
-public class Customer {
+public class Customer implements Entity{
 	private int id;
 	private String firstName;
 	private String lastName;
